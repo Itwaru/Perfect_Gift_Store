@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #D3CCE3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    width: 100%;
+    height: 80px;
+    background: #1c92d2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    z-index: 1;
+    transition: 2s;
+}
+
+.nav {
+
+    width: 95%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav__img {
+    height: 80px;
+}
+
+.nav__titulo {
+    color: rgb(82, 72, 72);
+}
+
+.nav__button,
+.nav__input {
+    display: none;
+}
+
+.nav__items {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.nav__item {
+    color: rgb(82, 65, 65);
+    text-decoration: none;
+    font-weight: 400;
+    --clip: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.nav__item::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    display: block;
+    margin-top: 3px;
+    clip-path: var(--clip);
+    transition: clip-path .7s ease-in-out;
+}
+
+.nav__item:hover {
+    --clip: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+
+
+
+/* cards */
+.cards__container {
+    /* border: 5px solid rgb(191, 226, 34); */
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1em;
+    margin: 0 auto;
+    margin-top: 200px;
+    perspective: 700;
+    background: #00416A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E4E5E6, #00416A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 30px black;
+    border-radius: 5px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.lado {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.card__adelante {
+    background: rgb(240, 128, 128);
+
+}
+
+.card__trasera {
+    background: rgb(32, 178, 171);
+    transform: rotateY(180deg);
+
+}
+
+.card__cta {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: auto;
+    text-decoration: none;
+    color: lawngreen;
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:650px) {
+
+    .nav__button {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .nav__items {
+        position: fixed;
+        top: 80px;
+        background: #43C6AC;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #F8FFAE, #43C6AC);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        width: 100%;
+        height: 90%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        clip-path: circle(0% at 50% 50%);
+        transition: clip-path .7s ease-in-out;
+    }
+
+    .nav__input:checked+.nav__items {
+        clip-path: circle(100% at 50% 50%);
+    }
+
+
+}
