@@ -141,6 +141,9 @@ body {
     background: rgb(240, 128, 128);
 
 }
+h3{
+    text-align: center; 
+}
 
 .card__trasera {
     background: rgb(32, 178, 171);
