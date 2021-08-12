@@ -6,7 +6,7 @@ window.onscroll=()=>{
    (actual>=desplazamiento)
    ?document.getElementById('nav').style.top='0'
    :document.getElementById('nav').style.top='-100px';
-    
+   actual=desplazamiento; 
 }
 
 
