@@ -178,35 +178,6 @@ h3 {
     padding: 30px;
 }
 
-.footer{
-    width: 100%;
-    height: auto;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-    padding: 20px;
-}
-
-.footer__enlaces{
-    display: flex;
-    width: 1200px;
-    margin: 0 auto;
-    justify-content: center;
-    gap: 20px;
-}
-
-.footer__img{
-    display: flex;
-    justify-content: center;
-}
-
-.footer__svg{
-    width: 40px;
-    height: 40px;
-}
-
 
 
 
