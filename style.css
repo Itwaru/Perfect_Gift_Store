@@ -5,11 +5,7 @@
 }
 
 body {
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3A6073, #16222A);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3A6073, #16222A);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;
 
 
 }
@@ -17,11 +13,7 @@ body {
 .container {
     width: 100%;
     height: 80px;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;
     z-index: 1;
     transition: 2s;
     position: sticky;
@@ -96,10 +88,7 @@ body {
     margin: 0 auto;
     margin-top: 100px;
     perspective: 700;
-    background: -webkit-linear-gradient(to right, #434343, #000000);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;
     margin-bottom: 40px;
     border-radius: 10px;
 
@@ -138,6 +127,8 @@ body {
     display: flex;  
     box-shadow: 0px 0px 10px rgb(255, 255, 255); 
 }
+
+
 
 h3 {
     text-align: center;
@@ -180,6 +171,182 @@ h3 {
 
 
 
+/* Cards con sus respectivos articulos */
+
+.card__1{
+    background-image: url(pictures/Bolso\ Puma.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card__2{
+    background-image: url(pictures/Reebok.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__3{
+    background-image: url(pictures/Nike\ Verde\ Claro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__4{
+    background-image: url(pictures/Nike\ Gris.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card__5{
+    background-image: url(pictures/Nike\ Azul.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__6{
+    background-image: url(pictures/Camisa\ Adidas\ Azul.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__7{
+    background-image: url(pictures/Camisa\ Adidas\ Gris.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__8{
+    background-image: url(pictures/Camisa\ Adidas\ Negra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__9{
+    background-image: url(pictures/Franelilla\ Gap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__10{
+    background-image: url(pictures/Camisa\ Gap\ Blanco\ con\ Rojo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__11{
+    background-image: url(pictures/Camisa\ Forever\ 21\ Rojo\ Claro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__12{
+    background-image: url(pictures/Camisa\ tommy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__13{
+    background-image: url(pictures/Chaqueta\ Polo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__14{
+    background-image: url(pictures/Sweter\ Van\ Heusen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__15{
+    background-image: url(pictures/Calentador\ Ecko\ unltd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__16{
+    background-image: url(pictures/Body\ Blanca\ Forever\ 21.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__17{
+    background-image: url(pictures/Body\ Azul\ Forever\ 21.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__18{
+    background-image: url(pictures/Vestido\ Corto\ Marshalls.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__19{
+    background-image: url(pictures/Blusa\ Allysse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__20{
+    background-image: url(pictures/Forever\ 21\ Corto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__21{
+    background-image: url(pictures/Braga\ Calvin\ Klein.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__22{
+    background-image: url(pictures/Braga\ Forever\ 21.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__23{
+    background-image: url(pictures/Lentes\ American\ Eagle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__24{
+    background-image: url(pictures/Labiales\ Hadaiyan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__25{
+    background-image: url(pictures/Splash\ Pink\ Blooms.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__26{
+    background-image: url(pictures/Crema\ Pink\ Paradise\ Bloom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__27{
+    background-image: url(pictures/Splash\ Coconut\ Coast.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card__28{
+    background-image: url(pictures/Crema\ Pink\ Tropic\ Palm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
 
 
 
@@ -201,11 +368,7 @@ h3 {
     .nav__items {
         position: fixed;
         top: 80px;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #3A6073, #16222A);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #3A6073, #16222A);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #000000c2;
         width: 100%;
         height: 90%;
         left: 0;
