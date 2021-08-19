@@ -314,10 +314,11 @@ h3 {
     background-size: 100% 100%;
 }
 .card__24{
-    background-image: url(pictures/Labiales\ Hadaiyan.jpg);
+    background-image: url(pictures/Labiales_Colores.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    object-fit: cover;
 }
 .card__25{
     background-image: url(pictures/Splash\ Pink\ Blooms.jpg);
