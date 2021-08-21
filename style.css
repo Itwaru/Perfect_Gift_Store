@@ -6,9 +6,9 @@
 
 body {
     background: #000000;
-
-
 }
+
+/* Header con su nav de navegacion */
 
 .container {
     width: 100%;
@@ -20,7 +20,6 @@ body {
 }
 
 .nav {
-
     width: 95%;
     height: inherit;
     display: flex;
@@ -75,8 +74,6 @@ body {
 }
 
 
-
-
 /* cards */
 .cards__container {
     /* border: 5px solid rgb(191, 226, 34); */
@@ -91,7 +88,6 @@ body {
     background: #000000;
     margin-bottom: 40px;
     border-radius: 10px;
-
 }
 
 .card {
@@ -123,12 +119,9 @@ body {
 }
 
 .card__adelante {
-    background: rgb(67, 113, 199);
     display: flex;  
     box-shadow: 0px 0px 10px rgb(255, 255, 255); 
 }
-
-
 
 h3 {
     text-align: center;
@@ -141,7 +134,6 @@ h3 {
     background: linear-gradient(to right, #3A6073, #16222A);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     transform: rotateY(180deg);
-
 }
 
 .card__cta {
@@ -163,10 +155,11 @@ h3 {
     padding: 30px;
 }
 
-.card__parrafo{
+.card__parrafo, .card__precio{
     color: #fff;
     text-align: center;
     padding: 30px;
+    font-size: 1.5rem;
 }
 
 
@@ -344,16 +337,25 @@ h3 {
     background-size: 100% 100%;
 }
 
+/* Footer */
+
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    height: 100px;
+    background: rgb(32, 31, 31);
+}
+
+.footer__parrafo{
+    color: #fff;
+}
 
 
 
-
-
-
-
-
-
-
+/* @media  */
 
 @media (max-width:650px) {
 
@@ -382,6 +384,4 @@ h3 {
     .nav__input:checked+.nav__items {
         clip-path: circle(100% at 50% 50%);
     }
-
-
 }
