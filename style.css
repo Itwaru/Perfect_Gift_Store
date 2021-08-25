@@ -137,12 +137,16 @@ h3 {
 }
 
 .card__trasera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3A6073, #16222A);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3A6073, #16222A);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     transform: rotateY(180deg);
+
 }
 
 .card__cta {
@@ -158,17 +162,13 @@ h3 {
     border: 1px solid #fff;
 }
 
-.card__titulo{
-    color: #fff;
-    text-align: center;
-    padding: 30px;
-}
 
-.card__parrafo, .card__precio{
-    color: #fff;
+.card__titulo,.card__parrafo, .card__precio{
+    padding: 10px;
     text-align: center;
-    padding: 30px;
-    font-size: 1.5rem;
+    color: #fff;
+    font-size: 15px;
+    
 }
 
 
