@@ -46,7 +46,7 @@ body {
 }
 
 .nav__titulo {
-    color:#fff;
+    color: #fff;
 }
 
 .nav__button,
@@ -105,7 +105,7 @@ body {
     width: 250px;
     height: 400px;
     margin: 0 auto;
-    
+
     position: relative;
     transform-style: preserve-3d;
     transition: 2s;
@@ -128,8 +128,8 @@ body {
 }
 
 .card__adelante {
-    display: flex;  
-    box-shadow: 0px 0px 10px rgb(255, 255, 255); 
+    display: flex;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 h3 {
@@ -163,184 +163,274 @@ h3 {
 }
 
 
-.card__titulo,.card__parrafo, .card__precio{
+.card__titulo,
+.card__parrafo,
+.card__precio {
     padding: 10px;
     text-align: center;
     color: #fff;
     font-size: 15px;
-    
+
 }
 
 
 
 /* Cards con sus respectivos articulos */
 
-.card__1{
-    background-image: url(pictures/Bolso\ Puma.jpg);
+.card__1 {
+    background-image: url(pictures/Ropa/Bolso\ Puma.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-.card__2{
-    background-image: url(pictures/Reebok.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.card__3{
-    background-image: url(pictures/Nike\ Verde\ Claro.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.card__4{
-    background-image: url(pictures/Nike\ Gris.jpg);
+.card__2 {
+    background-image: url(pictures/Ropa/Reebok.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-.card__5{
-    background-image: url(pictures/Nike\ Azul.jpg);
+.card__3 {
+    background-image: url(pictures/Ropa/Nike\ Verde\ Claro.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__6{
-    background-image: url(pictures/Camisa\ Adidas\ Azul.jpg);
+
+.card__4 {
+    background-image: url(pictures/Ropa/Nike\ Gris.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__7{
-    background-image: url(pictures/Camisa\ Adidas\ Gris.jpg);
+
+.card__5 {
+    background-image: url(pictures/Ropa/Nike\ Azul.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__8{
-    background-image: url(pictures/Camisa\ Adidas\ Negra.jpg);
+
+.card__6 {
+    background-image: url(pictures/Ropa/Camisa\ Adidas\ Azul.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__9{
-    background-image: url(pictures/Franelilla\ Gap.jpg);
+
+.card__7 {
+    background-image: url(pictures/Ropa/Camisa\ Adidas\ Gris.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__10{
-    background-image: url(pictures/Camisa\ Gap\ Blanco\ con\ Rojo.jpg);
+
+.card__8 {
+    background-image: url(pictures/Ropa/Camisa\ Adidas\ Negra.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__11{
-    background-image: url(pictures/Camisa\ Forever\ 21\ Rojo\ Claro.jpg);
+
+.card__9 {
+    background-image: url(pictures/Ropa/Franelilla\ Gap.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__12{
-    background-image: url(pictures/Camisa\ tommy.jpg);
+
+.card__10 {
+    background-image: url(pictures/Ropa/Camisa\ Gap\ Blanco\ con\ Rojo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__13{
-    background-image: url(pictures/Chaqueta\ Polo.jpg);
+
+.card__11 {
+    background-image: url(pictures/Ropa/Camisa\ Forever\ 21\ Rojo\ Claro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__14{
-    background-image: url(pictures/Sweter\ Van\ Heusen.jpg);
+
+.card__12 {
+    background-image: url(pictures/Ropa/Camisa\ tommy.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__15{
-    background-image: url(pictures/Calentador\ Ecko\ unltd.jpg);
+
+.card__13 {
+    background-image: url(pictures/Ropa/Chaqueta\ Polo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__16{
-    background-image: url(pictures/Body\ Blanca\ Forever\ 21.jpg);
+
+.card__14 {
+    background-image: url(pictures/Ropa/Sweter\ Van\ Heusen.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__17{
-    background-image: url(pictures/Body\ Azul\ Forever\ 21.jpg);
+
+.card__15 {
+    background-image: url(pictures/Ropa/Calentador\ Ecko\ unltd.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__18{
-    background-image: url(pictures/Vestido\ Corto\ Marshalls.jpg);
+
+.card__16 {
+    background-image: url(pictures/Ropa/Body\ Blanca\ Forever\ 21.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__19{
-    background-image: url(pictures/Blusa\ Allysse.jpg);
+
+.card__17 {
+    background-image: url(pictures/Ropa/Body\ Azul\ Forever\ 21.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__20{
-    background-image: url(pictures/Forever\ 21\ Corto.jpg);
+
+.card__18 {
+    background-image: url(pictures/Ropa/Vestido\ Corto\ Marshalls.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__21{
-    background-image: url(pictures/Braga\ Calvin\ Klein.jpg);
+
+.card__19 {
+    background-image: url(pictures/Ropa/Blusa\ Allysse.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__22{
-    background-image: url(pictures/Braga\ Forever\ 21.jpg);
+
+.card__20 {
+    background-image: url(pictures/Ropa/Forever\ 21\ Corto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__23{
-    background-image: url(pictures/Lentes\ American\ Eagle.jpg);
+
+.card__21 {
+    background-image: url(pictures/Ropa/Braga\ Calvin\ Klein.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__24{
-    background-image: url(pictures/Labiales_Colores.jpg);
+
+.card__22 {
+    background-image: url(pictures/Ropa/Braga\ Forever\ 21.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__25{
-    background-image: url(pictures/Splash\ Pink\ Blooms.jpg);
+
+.card__23 {
+    background-image: url(pictures/Ropa/Lentes\ American\ Eagle.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__26{
-    background-image: url(pictures/Crema\ Pink\ Paradise\ Bloom.jpg);
+
+.card__24 {
+    background-image: url(pictures/Ropa/Labiales_Colores.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__27{
-    background-image: url(pictures/Splash\ Coconut\ Coast.jpg);
+
+.card__25 {
+    background-image: url(pictures/Ropa/Splash\ Pink\ Blooms.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.card__28{
-    background-image: url(pictures/Crema\ Pink\ Tropic\ Palm.jpg);
+
+.card__26 {
+    background-image: url(pictures/Ropa/Crema\ Pink\ Paradise\ Bloom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card__27 {
+    background-image: url(pictures/Ropa/Splash\ Coconut\ Coast.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card__28 {
+    background-image: url(pictures/Ropa/Crema\ Pink\ Tropic\ Palm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card__29 {
+    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 142629.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card__30 {
+    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 142733.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card__31 {
+    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 142829.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card__32 {
+    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 142914.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card__33 {
+    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 143039.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card__34 {
+    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 143152.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card__35 {
+    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 143237.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card__36 {
+    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 143324.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card__37 {
+    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 143449.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -348,7 +438,7 @@ h3 {
 
 /* Footer */
 
-.footer__container{
+.footer__container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -358,7 +448,7 @@ h3 {
     background: rgb(32, 31, 31);
 }
 
-.footer__parrafo{
+.footer__parrafo {
     color: #fff;
 }
 
