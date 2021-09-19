@@ -177,13 +177,6 @@ h3 {
 
 /* Cards con sus respectivos articulos */
 
-.card__1 {
-    background-image: url(pictures/Ropa/Bolso\ Puma.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
 .card__2 {
     background-image: url(pictures/Ropa/Reebok.jpg);
     background-size: cover;
@@ -368,69 +361,6 @@ h3 {
 
 .card__28 {
     background-image: url(pictures/Ropa/Crema\ Pink\ Tropic\ Palm.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.card__29 {
-    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 142629.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.card__30 {
-    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 142733.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.card__31 {
-    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 142829.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.card__32 {
-    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 142914.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.card__33 {
-    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 143039.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.card__34 {
-    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 143152.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.card__35 {
-    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 143237.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.card__36 {
-    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 143324.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.card__37 {
-    background-image: url(pictures/Bisuteria/Captura\ de\ pantalla\ 2021-08-25\ 143449.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
